@@ -1,2 +1,2 @@
 # Miami-Heat
-Estadísticas de Miami Heat - Temporadas 2019 - 2024
+Análisis de datos y modelado predictivo del desempeño del Miami Heat (2019-2024). El repositorio incluye el pipeline completo de ciencia de datos: desde la extracción y limpieza de estadísticas de la NBA hasta la implementación de modelos de Machine Learning con Python (Scikit-learn, Pandas) para predecir indicadores de rendimiento (KPIs deportivos) y la eficiencia ofensiva/defensiva. El enfoque se centra en variables críticas de rendimiento durante el último lustro de la franquicia en la Conferencia Este
