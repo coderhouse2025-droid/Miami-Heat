@@ -55,7 +55,7 @@ Evaluación del rendimiento de local vs. visitante para determinar si el estadio
 
 ## 🗃️ Dataset
 
-- 📌 **Fuente:** Basketball Reference + Universo Básquet
+- 📌 **Fuente:** Basketball Reference y Universo Básquet
 - 📂 **Formato:** `.xlsx` con múltiples hojas (Regular, Playoffs, combinado)
 - 🔢 **Registros:** 391 partidos — temporadas 2019–2020 a 2023–2024
 - 📐 **Variables:** estadísticas por jugador/temporada/fase (32 columnas)
