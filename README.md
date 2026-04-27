@@ -62,15 +62,6 @@ Evaluación del rendimiento de local vs. visitante para determinar si el estadio
 
 ---
 
-## ▶️ Cómo ejecutar
-
-1. 📥 Clonar el repositorio o abrir `Miami_Heat (Final).ipynb` en Google Colab.
-2. 🔗 Montar Google Drive cuando se solicite.
-3. ⬇️ El notebook descarga automáticamente el dataset desde Drive con `gdown`.
-4. ▶️ Ejecutar celdas en orden.
-
----
-
 ## 📁 Archivos del repositorio
 
 | Archivo | Descripción |
