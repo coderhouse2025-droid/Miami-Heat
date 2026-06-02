@@ -4,7 +4,7 @@
 
 ## 📋 Descripción
 
-Este proyecto realiza un análisis exploratorio (EDA) y estadístico del Miami Heat desde la temporada 2019–2020 hasta 2023–2024. A partir de 391 partidos, estadísticas avanzadas y métricas de rendimiento individual, se exploran los patrones que definen la identidad competitiva de la franquicia.
+Este proyecto realiza un análisis exploratorio (EDA) y estadístico del Miami Heat desde la temporada 2019–2020 hasta 2023–2024. A partir de 392 partidos, estadísticas avanzadas y métricas de rendimiento individual, se exploran los patrones que definen la identidad competitiva de la franquicia.
 
 Los datos provienen de **Basketball Reference** y **Universo Básquet**, procesados con Python y almacenados en SQLite.
 
