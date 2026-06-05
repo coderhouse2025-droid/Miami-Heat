@@ -128,7 +128,7 @@ La elección de cada tecnología no fue arbitraria. Cada herramienta fue selecci
 
 **Problema de negocio:** ¿sigue siendo el Kaseya Center una ventaja real o es un mito? La respuesta impacta en cómo el equipo planifica su calendario y maneja el factor local frente a playoffs en casa.
 
-**Método:** comparación de medias (porcentaje de victorias local vs visitante) con test estadístico para validar significancia. Se eligió este enfoque antes que un modelo predictivo porque la pregunta es descriptiva, no predictiva.
+**Método:** comparación de medias (porcentaje de victorias local vs visitante) con test estadístico para validar significancia. Eligi este enfoque antes que un modelo predictivo porque la pregunta es descriptiva, no predictiva.
 
 ---
 
