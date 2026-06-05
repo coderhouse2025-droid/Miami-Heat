@@ -1,3 +1,6 @@
+<img width="1280" height="720" alt="FOTO DE LOGO(1)" src="https://github.com/user-attachments/assets/523216ed-fa07-4f99-8204-393d3ec142f7" />
+
+
 # 🏀 Miami Heat — Radiografía de una Cultura (2019–2024)
 
 > 📊 Análisis de datos y modelado predictivo del desempeño del Miami Heat en cinco temporadas críticas de la NBA.
@@ -39,13 +42,13 @@ El dataset original presentaba los siguientes problemas que requirieron interven
 
 **Inconsistencias de formato:** los nombres de columnas no eran uniformes entre las hojas del archivo `.xlsx`. Algunas temporadas usaban abreviaturas distintas para las mismas métricas (e.g., `PTS` vs `points`), lo que obligó a una normalización de encabezados antes de cualquier análisis.
 
-**Valores nulos y ausentes:** las temporadas de playoffs tenían registros incompletos para partidos donde algunos jugadores no participaron por lesión. Se decidió **no imputar** estos valores con la media o mediana, sino tratarlos como ausencia real de datos, ya que imputar estadísticas deportivas introduce un sesgo semántico: un jugador que no jugó no tiene "rendimiento promedio", tiene cero impacto.
+**Valores nulos y ausentes:** las temporadas de playoffs tenían registros incompletos para partidos donde algunos jugadores no participaron por lesión. Decidi**no imputar** estos valores con la media o mediana, sino tratarlos como ausencia real de datos, ya que imputar estadísticas deportivas introduce un sesgo semántico: un jugador que no jugó no tiene "rendimiento promedio", tiene cero impacto.
 
 **Datos mixtos en una misma columna:** la columna de resultado del partido combinaba score propio y rival en un string (`"112-98"`). Fue necesario separar y castear a entero para poder calcular diferencias de puntos (point differential), variable clave para modelos posteriores.
 
 **Dataset fragmentado:** los datos de temporada regular y playoffs estaban en hojas separadas. Se consolidaron en un único DataFrame con una columna categórica `fase` (Regular / Playoffs) para poder comparar ambos contextos sin perder la trazabilidad.
 
-**Decisión sobre el período analizado:** se eligió 2019–2024 porque cubre el ciclo completo de Jimmy Butler como franquicia, incluyendo las dos Finales (2020 en burbuja y 2023). Esto permite medir su impacto con datos suficientes y evitar el ruido de períodos donde el plantel era estructuralmente diferente.
+**Decisión sobre el período analizado:** eligi 2019–2024 porque cubre el ciclo completo de Jimmy Butler como franquicia, incluyendo las dos Finales (2020 en burbuja y 2023). Esto permite medir su impacto con datos suficientes y evitar el ruido de períodos donde el plantel era estructuralmente diferente.
 
 ---
 
