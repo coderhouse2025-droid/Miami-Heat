@@ -175,8 +175,10 @@ Fuentes externas (Basketball Reference / Universo Básquet)
 Proyecto desarrollado como trabajo final de Data Science — **Coderhouse 2025**.
 
 ---
+
 ## 📄 Licencia
 
 Este proyecto está bajo la [Licencia MIT](LICENSE) — libre para uso como referencia, aprendizaje o desarrollo de proyectos propios.
 ---
+
 > *"Más allá del talento, el Heat se apoya en una estructura estadística que lo mantiene siempre en la conversación por el anillo."* 🏆
